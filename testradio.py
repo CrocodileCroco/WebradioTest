@@ -24,4 +24,4 @@ while True:
             with open(os.getcwd() + "/static/radio.mp3", "wb") as f:
                 chunk.export(f, format="mp3")
                 print("exported chunk")
-                time.sleep(20)
+                time.sleep(3)
